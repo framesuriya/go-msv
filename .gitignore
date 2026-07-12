@@ -15,6 +15,7 @@ coverage.html
 .env
 .env.*
 !.env.example
+.envrc
 
 # Logs
 *.log
