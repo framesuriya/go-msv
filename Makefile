@@ -1,9 +1,9 @@
 # Makefile for building and running the Go microservice
-.PHONY: backend backend-down
+.PHONY: backend backend-down backend-down-volumes
 backend:
 	@echo "Building and starting the Go microservice..."
 	docker compose up --build
-ิbackend-down:
+backend-down:
 	@echo "Stopping and removing the Go microservice..."
 	docker compose down
 backend-down-volumes:
