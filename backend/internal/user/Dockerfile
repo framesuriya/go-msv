@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ["go", "run", "./cmd"]
+CMD ["go", "run", "./cmd/api"]
